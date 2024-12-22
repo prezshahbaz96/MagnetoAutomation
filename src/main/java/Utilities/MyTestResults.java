@@ -6,14 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.Date;
-/*
-**==========~~~~~~~~~~==========~~~~~~~~~~==========~~~~~~~~~~==========
-*Author Name 		- DGovindhan
-*Created on  		- 25-Dec-2019
-*Description        - This implementation is for send email notification and future new implementation 
-*Other Information 	- 
-***==========~~~~~~~~~~==========~~~~~~~~~~==========~~~~~~~~~~==========
-*/
+
 public class MyTestResults {
 	static int passed;
 	static int failed;
@@ -78,25 +71,7 @@ public class MyTestResults {
 		System.out.println("Total no of Test case passed Percentage - " + strPercentage);
 	}
 	
-	/*public static String getFeatureFileNameFromScenarioId() {
-	    String featureName = "Feature ";
-	    Scenario txt = DriverIntialization.messageHandler;
-	    String rawFeatureName2 = DriverIntialization.messageHandler.getId();
-	    String rawFeatureName = DriverIntialization.messageHandler.getId().split("/")[3].replace("-"," ");
-	    featureName = rawFeatureName.substring(0, 1).toUpperCase() + rawFeatureName.substring(1);
-
-	    return featureName;
-	}
-	public void incrementFeatureCount() {
-		MyTestResults.FeatureCount++;
-	}*/
+	
 
 	
 }
-/*
- ** ==========~~~~~~~~~~==========~~~~~~~~~~==========~~~~~~~~~~==========
- ** Copyright (C) 2008-2019 Schlumberger,- All Rights Reserved Unauthorized
- * copying of this file, via any medium is strictly prohibited Proprietary and
- * confidential
- ** ==========~~~~~~~~~~==========~~~~~~~~~~==========~~~~~~~~~~==========
- */

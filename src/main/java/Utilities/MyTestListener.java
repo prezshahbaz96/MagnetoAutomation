@@ -11,24 +11,13 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.xml.XmlSuite;
 
-/*
-**==========~~~~~~~~~~==========~~~~~~~~~~==========~~~~~~~~~~==========
-*Author Name 		- DGovindhan
-*Created on  		- 25-Dec-2019
-*Description        - This implementation is for send email notification and future new implementation 
-*Other Information 	- 
-***==========~~~~~~~~~~==========~~~~~~~~~~==========~~~~~~~~~~==========
-*/
+
 public class MyTestListener implements ITestListener,IReporter {
 	static MyTestResults results = new MyTestResults();
-	// https://www.youtube.com/watch?v=TGBji64cVPE
-	// https://github.com/MisterVitoPro/tutorial/tree/master/src/main
 
 	@Override
 	public void onTestSuccess(ITestResult testResult) {
 		System.out.println(testResult.getName() + " was successful.");
-		//MyTestResults.getFeatureFileNameFromScenarioId();
-		// Write to Excel sheets
 		results.incrementPassed();
 		System.out.println("PASSED TESTS: " + results.getPassed());
 		System.out.println("TOTAL TESTS: " + results.getTotalTests());
@@ -39,11 +28,7 @@ public class MyTestListener implements ITestListener,IReporter {
 		System.out.println(
 				testResult.getName() + " was a failure.\n Throwable: " + testResult.getThrowable().getMessage());
 		System.out.println("New Test Started" + testResult.getName());
-		//MyTestResults.getFeatureFileNameFromScenarioId();
-		// Screenshots
-		// Write to Excel sheets
 		results.incrementFailed();
-		//results.incrementFeatureCount();
 		System.out.println("FAILED TESTS: " + results.getFailed());
 		System.out.println("TOTAL TESTS: " + results.getTotalTests());
 	}
@@ -51,7 +36,6 @@ public class MyTestListener implements ITestListener,IReporter {
 	@Override
 	public void onTestSkipped(ITestResult testResult) {
 		System.out.println(testResult.getName() + " was skipped.");
-		//MyTestResults.getFeatureFileNameFromScenarioId();
 		results.incrementSkipped();
 		System.out.println("SKIPPED TESTS: " + results.getSkipped());
 		System.out.println("TOTAL TESTS: " + results.getTotalTests());
@@ -105,10 +89,3 @@ public class MyTestListener implements ITestListener,IReporter {
 		
 	}
 }
-/*
- ** ==========~~~~~~~~~~==========~~~~~~~~~~==========~~~~~~~~~~==========
- ** Copyright (C) 2008-2019 Schlumberger,- All Rights Reserved Unauthorized
- *  copying of this file, via any medium is strictly prohibited Proprietary and
- *  confidential
- ** ==========~~~~~~~~~~==========~~~~~~~~~~==========~~~~~~~~~~==========
- */
