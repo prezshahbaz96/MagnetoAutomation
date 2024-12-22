@@ -1,5 +1,7 @@
 package stepDefinitions;
 
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import PageFactoryElements.Magento_HomePage;
 import PageFactoryElements.Magneto_CreateAccount;
@@ -11,6 +13,7 @@ public class SignupSteps {
 
 	Magento_HomePage homePage = new Magento_HomePage();
 	Magneto_CreateAccount createAccount = new Magneto_CreateAccount();
+
 	
 
 	@Given("User opened {string} url")
@@ -40,6 +43,8 @@ public class SignupSteps {
         }
     }
 
+	
+	
 
 
 }
