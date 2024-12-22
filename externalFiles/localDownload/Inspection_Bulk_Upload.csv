@@ -1,0 +1,17 @@
+﻿Asset Family Name,MXT ID,SWI Title,SWI UID,Inspection Profile,Reason
+cpl_ECCWPGC350,I4250030111050|I4250020211020,Weld Product,027bd2c4-d612-42b0-b677-14ed66c7307a,CPL:CPL_Profile,Inspections already exist with this Maintenance Task ID - I4250030111050|I4250020211020
+cpl_C-PLATE,I4250020211040|I4250029711010,Complete Work Order Task,63e3846e-ae75-467d-a27e-3b6911a824c8,CPL:CPL_Profile,Unable to find the UID in workright API
+wl_1-32ZAUS,MXTID_Test_WL_0001|MXTID_Test_WL_0002|MXT339316,Do the servicing of the upper and lower heads (15 min),00c85ff1-b4f3-47d8-a5ad-5de2926ecc24,WIRE:Standard Profile,Inspections already exist with this Maintenance Task ID - MXTID_Test_WL_0001|MXT339316
+cpl_ALT-LH-TS,I4250020211020|I4250021011010,Complete Work Order Task,028631e0-4b97-4793-a235-70d9496d7f4b,CPL:CPL_Profile,Inspections already exist with this Maintenance Task ID - I4250020211020
+cpl_BASKET-RMC,I4250020211010|11,Complete Work Order Task,63e3846e-ae75-467d-a27e-3b6911a824c8,CPL:CPL_Profile,Unable to find the UID in workright API
+cpl_C0031L,I4250020211060,Straighten Shaft,1c5062bc-fa9c-4169-98b8-9ab0d96f6b48,CPL:CPL_Profile,Unable to find the UID in workright API
+cpl_DRIFT-OD,I4250025211080,Paint/coat product,028ed0cf-d581-4af7-8ef3-01fc565be9ae,CPL:CPL_Profile,Inspections already exist with this Maintenance Task ID - I4250025211080
+cpl_C-VISE,I4250020211050,Complete Work Order Task,63e3846e-ae75-467d-a27e-3b6911a824c8,CPL:CPL_Profile,Unable to find the UID in workright API
+wl_1-32ZTXS-TOOL,MXTID_Test_WL_0001,Do the servicing of the upper and lower heads (15 min),00c85ff1-b4f3-47d8-a5ad-5de2926ecc24,WIRE:Standard Profile,Inspections already exist with this Maintenance Task ID - MXTID_Test_WL_0001
+cpl_C0101L,I4250020211080|I4250030011070,Weld Product,21131c8a-084e-4732-b184-b899a566da74,CPL:CPL_Profile,Unable to find the UID in workright API
+cpl_C0054L,I4250020211070,Complete Work Order Task,63e3846e-ae75-467d-a27e-3b6911a824c8,CPL:CPL_Profile,Unable to find the UID in workright API
+cpl_CIKRMC-A,I4250020211100|I4250026111030,Paint/coat product,f554469d-d37c-4cbb-8da6-d685af42e937,CPL:CPL_Profile,Unable to find the UID in workright API
+cpl_PALLET,I4250020211030|20230623021905,Complete Work Order Task,63e3846e-ae75-467d-a27e-3b6911a824c8,CPL:CPL_Profile,Unable to find the UID in workright API
+cpl_BOWL,I4250020211020|20230423113944|I4250029811010,Complete Work Order Task,63e3846e-ae75-467d-a27e-3b6911a824c8,CPL:CPL_Profile,Unable to find the UID in workright API
+wl_1-32ZTXS-TOOL,MXTID_Test_WL_0001,Do the servicing of the upper and lower heads (15 min),00c85ff1-b4f3-47d8-a5ad-5de2926ecc24,WIRE:Standard Profile,Inspections already exist with this Maintenance Task ID - MXTID_Test_WL_0001
+CPLTEST1,I4250020211090|I4250026111040|I4250029811050,Complete Work Order Task,63e3846e-ae75-467d-a27e-3b6911a824c8,CPL:CPL_Profile,Unable to find the UID in workright API
