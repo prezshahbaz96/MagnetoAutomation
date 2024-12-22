@@ -10,7 +10,7 @@ Feature: User Signup Flow
 
   @TC002 @CreateAccount
   Scenario: TC002 - Validate the mandatory fields on the sign-up page
-   Given User opened "https://magento.softwaretestingboard.com/" url
+    Given User opened "https://magento.softwaretestingboard.com/" url
     When I click on the "Create an Account" link
     Then the "Create New Customer Account" page should be displayed
     Given I am on the "Create New Customer Account" page
